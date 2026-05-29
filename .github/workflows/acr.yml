@@ -26,5 +26,5 @@ jobs:
           context: .
           push: true
           tags: |
-            myacrregistry.azurecr.io/my-app:latest
-            myacrregistry.azurecr.io/my-app:${{ github.sha }}
+            northflankregistry.azurecr.io/my-app:latest
+            northflankregistry.azurecr.io/my-app:${{ github.sha }}
